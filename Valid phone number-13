@@ -1,0 +1,10 @@
+a = input("Enter a phone numer:")
+if len(a)==12 and a[3]=='-' and a[7] == '-':
+    if( a[:3]+a[4:7]+a[8:]).isdigit():
+        
+        print("The phone number is valid")
+    else:
+        
+       print("The Phone numebr is not valid")
+    else:
+    print("The Phone numebr is not valid")
